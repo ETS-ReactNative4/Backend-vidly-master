@@ -5,7 +5,7 @@ import Pagination from "./common/pagination";
 import { getMovies, deleteMovie  } from "../services/fakeMovieService";
 import { getGenres } from "../services/genreService";
 import { paginate } from "../utils/paginate";
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"
 import _ from "lodash";
 import SearchBox from "./searchBox";
 
